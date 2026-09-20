@@ -1,0 +1,24 @@
+# 📋 Gerenciador de Tarefas CLI
+
+Aplicação de linha de comando (CLI) desenvolvida em Python para gerenciamento de tarefas do dia a dia, utilizando um banco de dados relacional local para persistência de dados.
+
+## 🚀 Sobre o Projeto
+Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de programação em Python, manipulação de bancos de dados relacionais e estruturação de aplicações voltadas para o terminal. As informações inseridas não se perdem ao fechar o programa, pois são armazenadas localmente utilizando SQLite.
+
+## 🛠️ Tecnologias Utilizadas
+* **Python 3.x**
+* **SQLite3** (Banco de dados embutido)
+
+## 📌 Funcionalidades
+* **Adicionar Tarefa:** Insere uma nova tarefa com o status padrão de "Pendente".
+* **Listar Tarefas:** Exibe todas as tarefas cadastradas junto com seus respectivos IDs e status.
+* **Concluir Tarefa:** Atualiza o status de uma tarefa específica para "Concluída" através do ID.
+* **Excluir Tarefa:** Remove permanentemente uma tarefa do banco de dados com base no ID.
+
+## ⚙️ Como Executar o Projeto
+
+Certifique-se de ter o **Python** instalado na sua máquina.
+
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
